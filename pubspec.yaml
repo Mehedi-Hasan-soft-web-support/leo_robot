@@ -10,33 +10,35 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  
+  # UI
   cupertino_icons: ^1.0.0
   
-  # Speech to Text
-  speech_to_text: ^6.3.0
+  # Speech to Text - STABLE
+  speech_to_text: ^6.1.1
   
-  # Text to Speech
-  flutter_tts: ^0.13.11
+  # Text to Speech - STABLE
+  flutter_tts: ^0.13.8
 
-  # Bluetooth Serial
-  flutter_bluetooth_serial: ^0.4.1
+  # Bluetooth - CHANGED TO WORKING VERSION
+  flutter_bluetooth_serial: ^0.3.9
   
-  # Gemini API - FIXED VERSION
-  google_generative_ai: ^0.4.0
+  # Gemini API - STABLE
+  google_generative_ai: ^0.3.0
   
-  # Permissions - FIXED VERSION (compatible)
-  permission_handler: ^11.3.1
+  # Permissions - STABLE
+  permission_handler: ^10.4.3
   
-  # HTTP
-  http: ^1.1.0
+  # HTTP - STABLE
+  http: ^0.13.5
   
-  # Intl
-  intl: ^0.19.0
+  # Intl - STABLE
+  intl: ^0.18.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.0
+  flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true
