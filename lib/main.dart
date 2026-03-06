@@ -51,7 +51,7 @@ class _LeoScreenState extends State<LeoScreen> with TickerProviderStateMixin {
   bool _isBluetoothConnected = false;
 
   final String GEMINI_API_KEY = String.fromEnvironment('GEMINI_API_KEY',
-      defaultValue: 'AIzaSy_YOUR_API_KEY_HERE');
+      defaultValue: 'AIzaSyDF5mTo694pbzSISMKAMO_rSt1Eu0nqBuY');
   late GenerativeModel _generativeModel;
 
   @override
